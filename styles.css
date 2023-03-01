@@ -1,0 +1,73 @@
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: #dddddd;
+}
+
+header{
+    display: block;
+    text-align: center;
+}
+
+div {
+    display: block;
+    text-align: center;
+}
+
+figure{
+    display: block;
+}
+
+header h1{
+    font-size: 2rem;
+}
+
+header h2{
+    font-size: 1.2rem;
+}
+
+figcaption{
+    padding: 1rem;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+ul{
+    max-width: 30rem;
+    text-align: left;
+    margin: 0 auto 2rem;
+}
+
+li{
+    margin: 2rem;
+}
+
+a:visited{
+    color: rgb(0, 0, 0);
+}
+
+#image{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    max-width: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 2rem;
+}
+
+.caption{
+    display: block;
+    text-align: center;
+}
+
+.img-background{
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 0;
+}
